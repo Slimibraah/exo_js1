@@ -6,7 +6,14 @@ alert("Bonjour " + prenom) */
 
 alert("J'ai 20 ans mec") */
 
-let name = prompt("votre prenom ?")
+/* let name = prompt("votre prenom ?")
 let fname= prompt("votre nom de famille")
 console.log(name + fname)
-alert(name + fname)
+alert(name + fname) */
+
+let name = prompt("votre prenom ?")
+let fname= prompt("votre nom de famille")
+console.log(name.toUpperCase());
+console.log(fname.toUpperCase());
+console.log(name+fname)
+alert("bonjour" + name + fname)
